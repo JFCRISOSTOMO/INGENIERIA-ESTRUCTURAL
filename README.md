@@ -11,9 +11,9 @@
 
 | Apellidos           | Nombres           | Usuario  |
 |---------------------|--------------------|----------|
-| Clavijo Zavaleta    | Roberto Daniel     | XXXXXX   |
+| Clavijo Zavaleta    | Roberto Daniel     | rclavijo100   |
 | Llamacponcca Velarde| Elizabeth Cristina | XXXXXX   |
-| Sanchez Viguria     | Hans Cristian      | XXXXXX   |
-| Crisostomo Ramos    | Juan Felipe        | XXXXXX   |
+| Sanchez Viguria     | Hans Cristian      | HansSanchezViguria   |
+| Crisostomo Ramos    | Juan Felipe        | JFCRISOSTOMO   |
 
 ---
