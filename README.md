@@ -70,7 +70,7 @@ Este proyecto sigue los principios de Predictibilidad, Computabilidad y Estabili
 * **Computabilidad:** El dataset de 1030 registros es ligero, garantizando que el procesamiento y entrenamiento de los algoritmos se ejecuten eficientemente en segundos en cualquier CPU estándar.
 * **Estabilidad:** Validaremos que las predicciones de resistencia a la compresión sean robustas ante variaciones aleatorias en los datos o cambios en los hiperparámetros.
 
-Ver detalle completo en [docs/T1_Informe-Inicial.docx](docs/T1_Informe-Inicial.docx)
+Ver detalle completo en [docs/T1_Informe-Inicial.docx](docs/T1_Informe_Inicial.docx)
 
 
 ## Uso de IA (Bitácora)
