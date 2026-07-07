@@ -65,7 +65,13 @@ Tipo de datos: Numérico continuo, sin valores categóricos ni nulos
 
 ## Marco VDS (Veridical Data Science — PCS Framework)
 
-Este proyecto sigue los principios de Predictibilidad, Computabilidad y Estabilidad propuestos por Yu & Barter (2024). Ver detalle completo en docs/T1_Documento_Inicial.docx.
+Este proyecto sigue los principios de Predictibilidad, Computabilidad y Estabilidad propuestos por Yu & Barter (2024).
+
+* **Predictivilidad:** Evaluaremos la precisión de los modelos mediante métricas de regresión usando una partición de datos de entrenamiento y prueba.
+* **Computabilidad:** El dataset de 1030 registros es ligero, garantizando que el procesamiento y entrenamiento de los algoritmos se ejecuten eficientemente en segundos en cualquier CPU estándar.
+* **Estabilidad:** Validaremos que las predicciones de resistencia a la compresión sean robustas ante variaciones aleatorias en los datos o cambios en los hiperparámetros.
+
+Ver detalle completo en [docs/T1_Documento_Inicial.docs](docs/T1_Informe-Inicial.docs)
 
 
 ## Uso de IA (Bitácora)
