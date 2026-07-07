@@ -67,14 +67,6 @@ Tipo de datos: Numérico continuo, sin valores categóricos ni nulos
 
 Este proyecto sigue los principios de Predictibilidad, Computabilidad y Estabilidad propuestos por Yu & Barter (2024). Ver detalle completo en docs/T1_Documento_Inicial.docx.
 
-## Instalación y Ejecución
-
-bashgit clone [URL-del-repositorio]
-cd [nombre-repo]
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook notebooks/01_eda.ipynb
 
 ## Uso de IA (Bitácora)
 
