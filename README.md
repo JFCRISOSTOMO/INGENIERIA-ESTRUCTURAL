@@ -10,7 +10,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto aplica modelos de Machine Learning (Random Forest, con comparación posterior contra Gradient Boosting/XGBoost) para predecir la resistencia a compresión del concreto a partir de las proporciones de su mezcla y edad de curado, reduciendo la dependencia del ensayo destructivo tradicional a 28 días.
+Este proyecto busca aplicar modelos de Machine Learning (Random Forest, con comparación posterior contra Gradient Boosting/XGBoost) para predecir la resistencia a compresión del concreto a partir de las proporciones de su mezcla y edad de curado, reduciendo la dependencia del ensayo destructivo tradicional a 28 días.
 
 Dataset: Concrete Compressive Strength Dataset (UCI)
 
