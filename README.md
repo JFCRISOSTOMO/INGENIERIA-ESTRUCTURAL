@@ -81,4 +81,7 @@ El equipo utiliza herramientas de IA generativa (Claude, ChatGPT, GitHub Copilot
 
 
 Yu, B., & Barter, R. (2024). Veridical Data Science. MIT Press. https://vdsbook.com/
+
 Yeh, I-C. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository.
+
+Anthropic. (2026). Claude (versión Sonnet 4.5) [Modelo de lenguaje de gran escala]. https://claude.ai
