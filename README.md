@@ -32,23 +32,24 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 
 ​​```text
 ├── data/
-│   ├── raw/              # Dataset original sin modificar (concrete_data.csv)
-│   └── processed/        # Datos limpios, listos para modelar (T2)
+│   ├── raw/                # Dataset original sin modificar (concrete_data.csv)
+│   └── processed/          # Datos limpios, listos para modelar (T2)
 ├── notebooks/
-│   ├── 01_eda.ipynb              # Análisis exploratorio (T2)
-│   ├── 02_modeling.ipynb         # Entrenamiento de modelos (T3)
-│   └── 03_evaluation.ipynb       # Evaluación y comparación de modelos (T3)
+│   ├── 01_eda.ipynb        # Análisis exploratorio (T2)
+│   ├── 02_modeling.ipynb   # Entrenamiento de modelos (T3)
+│   └── 03_evaluation.ipynb # Evaluación y comparación de modelos (T3)
 ├── src/
-│   ├── data_loader.py     # Funciones de carga y limpieza de datos
-│   ├── train.py           # Script de entrenamiento
-│   └── evaluate.py        # Métricas y visualizaciones de resultados
+│   ├── data_loader.py      # Funciones de carga y limpieza de datos
+│   ├── train.py            # Script de entrenamiento
+│   └── evaluate.py         # Métricas y visualizaciones de resultados
 ├── docs/
 │   ├── T1_Informe-Inicial.docx
-│   ├── informe_final_IEEE.pdf     # T3
-│   └── bitacora_ia.md
+│   └── informe_final_IEEE.pdf # T3
+├── bitacora_ia.md
 ├── requirements.txt
 └── README.md
-​​```
+```
+
 
 ## Problema de Ingeniería
 
