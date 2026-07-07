@@ -30,7 +30,7 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 
 ## Estructura del Repositorio
 
-​​```
+​​```text
 ├── data/
 │   ├── raw/              # Dataset original sin modificar (concrete_data.csv)
 │   └── processed/        # Datos limpios, listos para modelar (T2)
