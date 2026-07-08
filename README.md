@@ -17,7 +17,7 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 
 ---
 
-## Integrantes del Equipo
+## Integrantes del GRUPO 02
 
 | Apellidos           | Nombres           | Usuario  |
 |---------------------|--------------------|----------|
