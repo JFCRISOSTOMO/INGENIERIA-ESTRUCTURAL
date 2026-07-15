@@ -84,4 +84,6 @@ Yu, B., & Barter, R. (2024). Veridical Data Science. MIT Press. https://vdsbook.
 
 Yeh, I-C. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository.
 
+Yeh (2006), Generalization of strength versus water–cementitious ratio relationship to age, Cem. Concr. Res. 36.10 1865–1873. 
+
 Anthropic. (2026). Claude (versión Sonnet 4.5) [Modelo de lenguaje de gran escala]. https://claude.ai
