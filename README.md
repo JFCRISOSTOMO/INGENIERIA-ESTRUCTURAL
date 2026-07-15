@@ -79,9 +79,15 @@ El equipo utiliza herramientas de IA generativa (Claude, ChatGPT, GitHub Copilot
 
 ## Referencias
 
-
 Yu, B., & Barter, R. (2024). Veridical Data Science. MIT Press. https://vdsbook.com/
 
 Yeh, I-C. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository.
 
-Anthropic. (2026). Claude (versión Sonnet 4.5) [Modelo de lenguaje de gran escala]. https://claude.ai
+Yeh, I-C. (1998). Modeling of strength of high-performance concrete using 
+artificial neural networks. Cement and Concrete Research, 28(12), 1797-1808.
+
+Chou, J-S., Chiu, C-K., Farfoura, M., & Al-Taharwa, I. (2011). Optimizing the 
+prediction accuracy of concrete compressive strength based on a comparison 
+of data-mining techniques. Journal of Computing in Civil Engineering, 25(3), 242-253.
+
+Anthropic. (2026). Claude (versión Sonnet 5) [Modelo de lenguaje de gran escala]. https://claude.ai
