@@ -1,7 +1,5 @@
 # Predicción de la Resistencia a Compresión del Concreto mediante Machine Learning
 
-*Entrega T1: Definición del Problema, Datos y Repositorio*
-
 **Curso:** Aplicaciones de IA en Estructuras
 
 **Docente:** Ing. Kurt Soncco Sinchi
