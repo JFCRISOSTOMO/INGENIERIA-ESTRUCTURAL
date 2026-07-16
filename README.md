@@ -20,7 +20,7 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 | Apellidos           | Nombres           | Usuario  |
 |---------------------|--------------------|----------|
 | Clavijo Zavaleta    | Roberto Daniel     | rclavijo100   |
-| Llamacponcca Velarde| Elizabeth Cristina | XXXXXX   |
+| Llamacponcca Velarde| Elizabeth Cristina | XXXXXX   | (Posible retiro del curso)
 | Sanchez Viguria     | Hans Cristian      | HansSanchezViguria   |
 | Crisostomo Ramos    | Juan Felipe        | JFCRISOSTOMO   |
 
@@ -58,6 +58,26 @@ Fuente: UCI Machine Learning Repository
 Observaciones: 1030 registros
 Variables: 8 predictoras (cemento, escoria de alto horno, cenizas volantes, agua, superplastificante, agregado grueso, agregado fino, edad) + 1 variable objetivo (resistencia a compresión en MPa)
 Tipo de datos: Numérico continuo, sin valores categóricos ni nulos
+
+## Plan de Algoritmos
+
+Se seleccionaron **Random Forest** y **XGBoost** por tres razones principales:
+
+- **No linealidad:** la resistencia del concreto no depende linealmente de sus 
+  componentes (ej. la razón agua/cemento tiene un efecto decreciente no 
+  proporcional), y los modelos de árboles capturan estas interacciones sin 
+  necesidad de especificarlas manualmente.
+- **Robustez ante outliers:** el EDA detectó valores atípicos en `age` y 
+  `superplasticizer`; los modelos basados en árboles son naturalmente 
+  robustos a estos casos, a diferencia de una regresión lineal simple.
+- **Interpretabilidad:** ambos permiten extraer importancia de variables 
+  (feature importance / SHAP), lo cual es clave para vincular los resultados 
+  con decisiones reales de dosificación, no solo predecir un número.
+
+Se comparan ambos modelos porque **Random Forest** ofrece mayor robustez 
+(promedia árboles independientes, menor riesgo de sobreajuste), mientras 
+que **XGBoost** suele lograr mayor precisión en datasets tabulares mediante 
+boosting secuencial, a costa de requerir más cuidado en la regularización.
 
 
 ## Marco VDS (Veridical Data Science — PCS Framework)
