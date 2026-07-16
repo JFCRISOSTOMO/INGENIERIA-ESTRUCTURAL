@@ -54,8 +54,11 @@ La resistencia a compresión del concreto es la propiedad mecánica más determi
 ## Dataset
 
 **Fuente:** UCI Machine Learning Repository
+
 **Observaciones:** 1030 registros
+
 **Variables:** 8 predictoras (cemento, escoria de alto horno, cenizas volantes, agua, superplastificante, agregado grueso, agregado fino, edad) + 1 variable objetivo (resistencia a compresión en MPa)
+
 **Tipo de datos:** Numérico continuo, sin valores categóricos ni nulos
 
 ## Plan de Algoritmos
