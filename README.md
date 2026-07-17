@@ -1,7 +1,5 @@
 # Predicción de la Resistencia a Compresión del Concreto mediante Machine Learning
 
-*Entrega T1: Definición del Problema, Datos y Repositorio*
-
 **Curso:** Aplicaciones de IA en Estructuras
 
 **Docente:** Ing. Kurt Soncco Sinchi
@@ -22,7 +20,7 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 | Apellidos           | Nombres           | Usuario  |
 |---------------------|--------------------|----------|
 | Clavijo Zavaleta    | Roberto Daniel     | rclavijo100   |
-| Llamacponcca Velarde| Elizabeth Cristina | XXXXXX   |
+| Llamacponcca Velarde| Elizabeth Cristina | *Posible retiro del curso*|
 | Sanchez Viguria     | Hans Cristian      | HansSanchezViguria   |
 | Crisostomo Ramos    | Juan Felipe        | JFCRISOSTOMO   |
 
@@ -55,11 +53,33 @@ La resistencia a compresión del concreto es la propiedad mecánica más determi
 
 ## Dataset
 
+**Fuente:** UCI Machine Learning Repository
 
-Fuente: UCI Machine Learning Repository
-Observaciones: 1030 registros
-Variables: 8 predictoras (cemento, escoria de alto horno, cenizas volantes, agua, superplastificante, agregado grueso, agregado fino, edad) + 1 variable objetivo (resistencia a compresión en MPa)
-Tipo de datos: Numérico continuo, sin valores categóricos ni nulos
+**Observaciones:** 1030 registros
+
+**Variables:** 8 predictoras (cemento, escoria de alto horno, cenizas volantes, agua, superplastificante, agregado grueso, agregado fino, edad) + 1 variable objetivo (resistencia a compresión en MPa)
+
+**Tipo de datos:** Numérico continuo, sin valores categóricos ni nulos
+
+## Plan de Algoritmos
+
+Se seleccionaron **Random Forest** y **XGBoost** por tres razones principales:
+
+- **No linealidad:** la resistencia del concreto no depende linealmente de sus 
+  componentes (ej. la razón agua/cemento tiene un efecto decreciente no 
+  proporcional), y los modelos de árboles capturan estas interacciones sin 
+  necesidad de especificarlas manualmente.
+- **Robustez ante outliers:** el EDA detectó valores atípicos en `age` y 
+  `superplasticizer`; los modelos basados en árboles son naturalmente 
+  robustos a estos casos, a diferencia de una regresión lineal simple.
+- **Interpretabilidad:** ambos permiten extraer importancia de variables 
+  (feature importance / SHAP), lo cual es clave para vincular los resultados 
+  con decisiones reales de dosificación, no solo predecir un número.
+
+Se comparan ambos modelos porque **Random Forest** ofrece mayor robustez 
+(promedia árboles independientes, menor riesgo de sobreajuste), mientras 
+que **XGBoost** suele lograr mayor precisión en datasets tabulares mediante 
+boosting secuencial, a costa de requerir más cuidado en la regularización.
 
 
 ## Marco VDS (Veridical Data Science — PCS Framework)
@@ -79,11 +99,17 @@ El equipo utiliza herramientas de IA generativa (Claude, ChatGPT, GitHub Copilot
 
 ## Referencias
 
-
 Yu, B., & Barter, R. (2024). Veridical Data Science. MIT Press. https://vdsbook.com/
 
 Yeh, I-C. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository.
 
 Yeh (2006), Generalization of strength versus water–cementitious ratio relationship to age, Cem. Concr. Res. 36.10 1865–1873. 
 
-Anthropic. (2026). Claude (versión Sonnet 4.5) [Modelo de lenguaje de gran escala]. https://claude.ai
+Yeh, I-C. (1998). Modeling of strength of high-performance concrete using 
+artificial neural networks. Cement and Concrete Research, 28(12), 1797-1808.
+
+Chou, J-S., Chiu, C-K., Farfoura, M., & Al-Taharwa, I. (2011). Optimizing the 
+prediction accuracy of concrete compressive strength based on a comparison 
+of data-mining techniques. Journal of Computing in Civil Engineering, 25(3), 242-253.
+
+Anthropic. (2026). Claude (versión Sonnet 5) [Modelo de lenguaje de gran escala]. https://claude.ai
