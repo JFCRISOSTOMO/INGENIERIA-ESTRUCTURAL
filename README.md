@@ -20,7 +20,6 @@ Dataset: Concrete Compressive Strength Dataset (UCI)
 | Apellidos           | Nombres           | Usuario  |
 |---------------------|--------------------|----------|
 | Clavijo Zavaleta    | Roberto Daniel     | rclavijo100   |
-| Llamacponcca Velarde| Elizabeth Cristina | *Posible retiro del curso*|
 | Sanchez Viguria     | Hans Cristian      | HansSanchezViguria   |
 | Crisostomo Ramos    | Juan Felipe        | JFCRISOSTOMO   |
 
