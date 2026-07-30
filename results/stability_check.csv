@@ -1,0 +1,3 @@
+Modelo,R2,RMSE (MPa),MAE (MPa)
+Con duplicados,0.921,4.52,3.24
+Sin duplicados,0.936,4.36,3.11

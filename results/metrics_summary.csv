@@ -1,0 +1,4 @@
+Modelo,R2,RMSE (MPa),MAE (MPa),A,B
+Random Forest,0.881,5.53,3.79,,
+XGBoost,0.921,4.52,3.24,,
+Empírico (Abrams / ACI 211.1),0.301,13.42,11.16,69.11,2.55
